@@ -1,43 +1,43 @@
 .html .body {
     font-family:  monospace;
     color: black;
-    background-color: lightblue;
+    background-color: rgb(161, 187, 196);
 }
 
-.head { background-color: white;
+.head { background-color: rgb(161, 187, 196);
     height: auto;
     font-size: large;
 }
 ​
-/*-------- Nav-------*/
+
 ​
 .nav-pills{
     color:white;
-    background-color: #EC8682;
+    background-color: #badaa5;
     font-family: monospace;
 }
 ​
 .navContainer{
-height: 0 auto;
-width: 0 auto;
-color: white;
-display: inline-flex;
+    height: 0 auto;
+    width: 0 auto;
+    color: white;
+    display: inline-flex;
 }
 ​
-/*----X---- Nav----X---*/
+
 ​
 ​
-/*-------- Jumbtron------*/
+
 .jumbotron jumbotron-fluid  {
-color:  white;
-font-size: 40px;
-background-color: #EC8682;
+    color:  white;
+    font-size: 40px;
+    background-color: #EC8682;
 }
 ​
-/*-----X--- Jumbtron---X---*/
+
 ​
 ​
-/*-----Project Introduciton----*/
+
 .col-sm {
     justify-content: space-evenly;
     color: white;
@@ -53,7 +53,6 @@ background-color: #EC8682;
     display: flex;
 }
 ​
-/*-----Project Introduciton----*/
 ​
 h1 {
     font-size: 40px;
@@ -75,7 +74,7 @@ p {
     display: flex;
 }
 ​
-/*-------X------Footer-------X-------*/
+
 .nav-items{
     display: inline-block;
 }
