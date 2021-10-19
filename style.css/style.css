@@ -1,0 +1,94 @@
+.body {
+    font-family:  monospace;
+    color: white;
+    background-image: url(../images/section\ 1\ background\ w\ stickers.png);
+}
+
+.head { background-color: white;
+    height: auto;
+    font-size: large;
+}
+​
+/*-------- Nav-------*/
+​
+.nav-pills{
+    color:white;
+    background-color: #EC8682;
+    font-family: monospace;
+}
+​
+.navContainer{
+height: 0 auto;
+width: 0 auto;
+color: white;
+display: inline-flex;
+}
+​
+/*----X---- Nav----X---*/
+​
+​
+/*-------- Jumbtron------*/
+.jumbotron jumbotron-fluid  {
+color:  white;
+font-size: 40px;
+background-color: #EC8682;
+}
+​
+/*-----X--- Jumbtron---X---*/
+​
+​
+/*-----Project Introduciton----*/
+.col-sm {
+    justify-content: space-evenly;
+    color: white;
+    font-family: monospace;
+    font-weight: 100;
+    display: inline-flex;
+}
+.flex-container p {
+    font-size: 18px;
+    font-family: monospace;
+    color: black;
+    justify-content: space-evenly;
+    display: flex;
+}
+​
+/*-----Project Introduciton----*/
+​
+h1 {
+    font-size: 40px;
+    font-family: monospace;
+    color: white;
+}
+​
+p {
+    font-size: 18px;
+    color: white;
+    font-family: monospace;
+    display: flex;
+}
+​
+.container{
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+    display: flex;
+}
+​
+/*-------X------Footer-------X-------*/
+.nav-items{
+    display: inline-block;
+}
+​
+button{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-family: monospace;
+} 
+
+@media screen and (max-width: 600px) {
+    .body {
+      background-color: lightpink;
+    }
+}
