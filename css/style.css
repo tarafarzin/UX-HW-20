@@ -1,42 +1,42 @@
 .html .body {
-    font-family:  monospace;
+    font-family: "Poiret One";
     color: black;
     background-color: rgb(161, 187, 196);
 }
 
-.head { background-color: rgb(161, 187, 196);
+a, p , li, h1, div {
+    font-family: "Poiret One";
+}
+
+.head { 
+    background-color: rgb(161, 187, 196);
     height: auto;
     font-size: large;
 }
-​
 
-​
-.nav-pills{
-    color:white;
+.home img {
+    height: 15px;
+    width: 15px;
+}
+
+.nav-pills {
+    color:blue;
     background-color: #badaa5;
     font-family: monospace;
 }
-​
-.navContainer{
+
+.navContainer {
     height: 0 auto;
     width: 0 auto;
     color: white;
     display: inline-flex;
 }
-​
-
-​
-​
 
 .jumbotron jumbotron-fluid  {
     color:  white;
     font-size: 40px;
-    background-color: #EC8682;
+    background-color: #badaa5;
 }
-​
-
-​
-​
 
 .col-sm {
     justify-content: space-evenly;
@@ -47,47 +47,45 @@
 }
 .flex-container p {
     font-size: 18px;
-    font-family: monospace;
+    font-family: "Poiret One";
     color: black;
     justify-content: space-evenly;
     display: flex;
 }
-​
-​
+
 h1 {
     font-size: 40px;
     font-family: monospace;
     color: white;
 }
-​
+
 p {
     font-size: 18px;
     color: white;
     font-family: monospace;
     display: flex;
 }
-​
+
 .container{
     color: white;
     font-family: monospace;
     font-size: 18px;
     display: flex;
 }
-​
 
 .nav-items{
     display: inline-block;
 }
-​
+
 button{
     color: black;
     background-color: white;
     font-size: 20px;
     font-family: monospace;
-} 
+}
 
 @media screen and (max-width: 600px) {
     .body {
-      background-color: lightpink;
+      background-color: rgb(25, 94, 19);
     }
 }
